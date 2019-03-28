@@ -22,7 +22,7 @@
             "containers":[
                {
                   "name":"guestbook",
-                  "image":"https://github.com/dbpilapil/examples.git",
+                  "image":"https://raw.githubusercontent.com/dbpilapil/examples/master/guestbook-go/public/index.html",
                   "ports":[
                      {
                         "name":"http-server",
