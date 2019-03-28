@@ -22,7 +22,7 @@
             "containers":[
                {
                   "name":"guestbook",
-                  "git clone https://github.com/dbpilapil/examples.git",
+                  "image":"https://github.com/dbpilapil/examples.git",
                   "ports":[
                      {
                         "name":"http-server",
