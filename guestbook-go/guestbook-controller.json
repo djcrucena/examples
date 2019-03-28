@@ -23,7 +23,6 @@
                {
                   "name":"guestbook",
                   "wget https://raw.githubusercontent.com/dbpilapil/examples/master/guestbook-go/public/index.html"
-                  ]
                }
             ]
          }
