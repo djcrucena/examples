@@ -22,7 +22,13 @@
             "containers":[
                {
                   "name":"guestbook",
-                  "wget https://raw.githubusercontent.com/dbpilapil/examples/master/guestbook-go/public/index.html"
+                  "image":"k8s.gcr.io/guestbook:v3",
+                  "ports":[
+                     {
+                        "name":"http-server",
+                        "containerPort":3000
+                     }
+                  ]
                }
             ]
          }
